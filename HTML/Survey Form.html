@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Survey Form </title>
+        <style>
+            h2 {
+                text-align: center;
+            }
+            form {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        </style> 
+    </head>
+    <body>
+        <h2>Employee Interests Survey form</h2>
+        <form>
+            <label for="fname">Enter your name:
+            </label>
+            <input type="text" id="fname" name="fname" value="">
+        </form>
+        <form>
+            <label for="dept">Enter your department:
+            </label>
+            <input type="text" id="dept" dept="dept" value="">
+        </form>
+        <form>
+            <label for="dept">Tell us a little about yourself:
+            </label>
+            <textarea rows="4" cols="24" input type="text" id="abtSelf" abtSelf="abtSelf" value="">
+            </textarea>
+        </form>
+        <form>
+            <label>Do you exercise at home?</label>
+            <input type="radio" id="yes" name="exercise" value="Yes">
+                <label for="question1">Yes</label>
+            <input type="radio" id="no" name="exercise" value="No">
+                <label for="no">No</label>
+        </form>
+        <form>
+            <p>How do you like to read about your favorite topics?</p>
+            <input type="checkbox" id="topic1" name="topic1" value="Books">
+                <label for="topic1"> Books</label>
+            <input type="checkbox" id="topic2" name="topic2" value="Online Resources">
+                <label for="topic2"> Online Resources</label>
+            <input type="checkbox" id="topic3" name="topic3" value="Phone apps">
+                <label for="topic3">Phone apps</label>
+            <input type="checkbox" id="topic4" name="topic4" value="Magazines">
+                <label for="topic4">Magazines</label>
+        </form>
+        <form>
+            <label for="movies">What genre of movies do you like?</label>
+            <select id="movies" name="movies" size="1">
+            <option value="comedy">Comedy</option>
+            </select>
+        </form>
+        <form>
+            <input type="submit" value="Submit form">
+        </form>
+    </body>
+</html>
