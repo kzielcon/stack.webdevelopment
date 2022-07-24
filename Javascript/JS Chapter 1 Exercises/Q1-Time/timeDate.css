@@ -1,0 +1,25 @@
+#value {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 180px;
+    height: 170px;
+    text-align: center;
+}
+div {
+    justify-items: center;
+    margin-top: 15px;
+}
+#month {
+    font-weight: bold;
+    font-size: 30px;
+}
+#time {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 3vh;
+} 
+#day {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 2vh;
+}

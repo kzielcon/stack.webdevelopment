@@ -1,0 +1,10 @@
+#value {
+    border: solid 1px rgb(89, 89, 89);
+    border-style: inset;
+    width: 435px;
+    height: 50%;
+}
+#car {
+    margin: 2vh;
+    font-family: "Arial";
+}
