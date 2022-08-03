@@ -1,0 +1,32 @@
+body {
+    margin-top: 1vh;
+}
+.note {
+    margin-top: 24px;
+    width: 25%;
+    height: 150px;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input-text {
+    width: 200px;
+    height: 30px;
+    border-style: solid black;
+  }
+::placeholder {
+    color: lightgrey;
+    text-align: center;
+    font-size: large;
+}
+button {
+    margin-left: 4vh;
+    background-color: white;
+    width: 65px;
+    height: 18px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1px;
+}
