@@ -1,0 +1,17 @@
+#celsius {
+    width: 245px;
+}
+#convert {
+    margin-top: 2vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: white;
+}
+#result {
+    padding: 40px; 
+    margin-top: 5vh;
+    text-align: center;
+}
